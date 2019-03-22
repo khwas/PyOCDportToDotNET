@@ -1,0 +1,27 @@
+﻿<UserControl x:Class="WpfApp1.UCButtonDebugUnit"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:WpfApp1"
+             mc:Ignorable="d" 
+             d:DesignHeight="26" d:DesignWidth="42">
+    <Grid>
+        <Border BorderBrush="{Binding Path=RunStateIndicator}" BorderThickness="5">
+            <Button Click="Button_ToggleToolVisibilityClick" ToolTip="{Binding Path=Name}" HorizontalContentAlignment="Left" VerticalContentAlignment="Top">
+                <Canvas>
+                    <Canvas.RenderTransform>
+                        <TransformGroup>
+                            <ScaleTransform ScaleX="0.2" ScaleY="0.2"/>
+                            <SkewTransform/>
+                            <RotateTransform/>
+                            <TranslateTransform X="2.6"/>
+                        </TransformGroup>
+                    </Canvas.RenderTransform>
+                    <Path Height="58" Stretch="Fill" Fill="{Binding Path=ButtonIconFill}" Data="m 13.145448,233.58318 h 10.583333 v 10.58333 H 13.145448 Z m 18.520833,0 h 10.583333 v 10.58333 H 31.666281 Z m 18.520834,0 h 10.583333 v 10.58333 H 50.187115 Z m 18.520832,0 H 79.29128 v 10.58333 H 68.707947 Z m 18.520836,0 h 10.583333 v 10.58333 H 87.228783 Z m -74.083335,18.52084 h 10.583333 v 10.58333 H 13.145448 Z m 18.520833,0 h 10.583333 v 10.58333 H 31.666281 Z m 18.520834,0 h 10.583333 v 10.58333 H 50.187115 Z m 18.520832,0 H 79.29128 v 10.58333 H 68.707947 Z m 18.520836,0 h 10.583333 v 10.58333 H 87.228783 Z M 42.249614,225.64568 v -5.29166 0 H -0.083719 v 55.5625 H 111.04128 v -55.5625 H 68.707947 v 7.9375 h 34.395833 v 39.6875 H 7.8537809 v -39.6875 H 42.249614 Z"/>
+                </Canvas>
+            </Button>
+        </Border>
+    </Grid>
+</UserControl>
+    
