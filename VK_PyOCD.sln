@@ -1,0 +1,88 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27428.2002
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VK_PyOCD", "pyOCD\VK_PyOCD.csproj", "{52BB1CD4-0E92-4744-8D82-64856BA2DA31}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VK_CMSIS_SVD_Test", "VK_CMSIS_SVD_Test\VK_CMSIS_SVD_Test.csproj", "{1156A409-6299-4BE1-A2C2-001478072CCB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "cmcsis_svd", "cmcsis_svd\cmcsis_svd.csproj", "{AA7721FD-F8E5-490A-A600-2FBF3FCFC22E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VK_pyOCD_Ported", "VK_pyOCD_Ported\VK_pyOCD_Ported.csproj", "{8C028023-65CE-42FA-B11A-12260CC57081}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UDPListener", "UDPListener\UDPListener.csproj", "{7DB9A116-9EC0-49FD-A35D-0C8A9EB16853}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UDPSender", "UDPSender\UDPSender.csproj", "{53F5D6A3-7486-40F1-92C9-822A8BAC067C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfApp1", "..\WpfApp1\WpfApp1.csproj", "{C67B928E-BA21-47EC-8ABC-333EED2AF136}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{52BB1CD4-0E92-4744-8D82-64856BA2DA31}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{52BB1CD4-0E92-4744-8D82-64856BA2DA31}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{52BB1CD4-0E92-4744-8D82-64856BA2DA31}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{52BB1CD4-0E92-4744-8D82-64856BA2DA31}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1156A409-6299-4BE1-A2C2-001478072CCB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1156A409-6299-4BE1-A2C2-001478072CCB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1156A409-6299-4BE1-A2C2-001478072CCB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1156A409-6299-4BE1-A2C2-001478072CCB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AA7721FD-F8E5-490A-A600-2FBF3FCFC22E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AA7721FD-F8E5-490A-A600-2FBF3FCFC22E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AA7721FD-F8E5-490A-A600-2FBF3FCFC22E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AA7721FD-F8E5-490A-A600-2FBF3FCFC22E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8C028023-65CE-42FA-B11A-12260CC57081}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C028023-65CE-42FA-B11A-12260CC57081}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C028023-65CE-42FA-B11A-12260CC57081}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C028023-65CE-42FA-B11A-12260CC57081}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7DB9A116-9EC0-49FD-A35D-0C8A9EB16853}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7DB9A116-9EC0-49FD-A35D-0C8A9EB16853}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7DB9A116-9EC0-49FD-A35D-0C8A9EB16853}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7DB9A116-9EC0-49FD-A35D-0C8A9EB16853}.Release|Any CPU.Build.0 = Release|Any CPU
+		{53F5D6A3-7486-40F1-92C9-822A8BAC067C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{53F5D6A3-7486-40F1-92C9-822A8BAC067C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{53F5D6A3-7486-40F1-92C9-822A8BAC067C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{53F5D6A3-7486-40F1-92C9-822A8BAC067C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C67B928E-BA21-47EC-8ABC-333EED2AF136}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C67B928E-BA21-47EC-8ABC-333EED2AF136}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C67B928E-BA21-47EC-8ABC-333EED2AF136}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C67B928E-BA21-47EC-8ABC-333EED2AF136}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6C114929-C240-481F-A2C0-30CA2ED70690}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 8
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://atesystems.visualstudio.com/
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = pyOCD\\VK_PyOCD.csproj
+		SccProjectName1 = pyOCD
+		SccLocalPath1 = pyOCD
+		SccProjectUniqueName2 = VK_CMSIS_SVD_Test\\VK_CMSIS_SVD_Test.csproj
+		SccProjectName2 = VK_CMSIS_SVD_Test
+		SccLocalPath2 = VK_CMSIS_SVD_Test
+		SccProjectUniqueName3 = cmcsis_svd\\cmcsis_svd.csproj
+		SccProjectName3 = cmcsis_svd
+		SccLocalPath3 = cmcsis_svd
+		SccProjectUniqueName4 = VK_pyOCD_Ported\\VK_pyOCD_Ported.csproj
+		SccProjectName4 = VK_pyOCD_Ported
+		SccLocalPath4 = VK_pyOCD_Ported
+		SccProjectUniqueName5 = UDPListener\\UDPListener.csproj
+		SccProjectName5 = UDPListener
+		SccLocalPath5 = UDPListener
+		SccProjectUniqueName6 = UDPSender\\UDPSender.csproj
+		SccProjectName6 = UDPSender
+		SccLocalPath6 = UDPSender
+		SccProjectUniqueName7 = ..\\WpfApp1\\WpfApp1.csproj
+		SccProjectName7 = ../WpfApp1
+		SccLocalPath7 = ..\\WpfApp1
+	EndGlobalSection
+EndGlobal
